@@ -1,0 +1,4 @@
+pynput==1.7.6
+# Optional:
+# cryptography==43.0.1    # use if you encrypt logs before sending
+# python-dotenv==1.0.1    # use if you load creds from a .env file
