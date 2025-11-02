@@ -43,4 +43,9 @@ pip install -r requirements.txt
 python3 keylogger.py
 ```
 
+Compatibility
+
+This project was tested with Python 3.11. pynput (used for key capture) is known to be incompatible with Python 3.12+ as of mid 2024–2025 and will crash with a _ThreadHandle TypeError.
+If you see that error: run the project with Python 3.11 (create a venv), or use the keyboard fallback/branch.
+
 
