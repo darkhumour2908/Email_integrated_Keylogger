@@ -43,27 +43,6 @@ pip install -r requirements.txt
 python3 keylogger.py
 ```
 
-🧩 Compatibility
-
-This project was originally tested using Python 3.11 in a controlled lab environment.
-The pynput package (used for keyboard event capture in the original research) is known to be incompatible with Python 3.12+ — as of mid-2024 to 2025, it may throw a _ThreadHandle TypeError.
-
-If you’re exploring this repository for educational or defensive purposes only:
-
-Use Python 3.11 to ensure compatibility when examining the pseudocode or safe demo components.
-
-The sanitized public version does not include any active key-capture code.
-
-To recreate the analysis environment safely:
-
-python3.11 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-# Run only the safe demo or analysis scripts (not any redacted modules)
-python demo_sanitised.py
-
-⚠️ Note: Do not attempt to re-enable or execute any redacted capture functionality.
-This repository is provided for educational and defensive research only.
 
 
 
