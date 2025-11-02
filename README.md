@@ -31,8 +31,8 @@ An educational/administrative tool that records keystrokes with timestamps and, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/keylogger-project.git
-cd keylogger-project
+git clone https://github.com/darkhumour2908/Email_integrated_Keylogger.git
+cd Email_integrated_Keylogger
 
 # (Optional) Fix ownership if files were created as root
 sudo chown -R $USER:$USER .
